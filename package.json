@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": {
+    "name": "Christopher Hex",
+    "email": "che@christopherh.dev",
+    "url": "https://www.christopherh.dev"
+},
   "cordova": {
     "id": "CordovaTestPlugin",
     "platforms": [
@@ -17,6 +22,5 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "Proprietary"
 }
