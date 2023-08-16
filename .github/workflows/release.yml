@@ -20,7 +20,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@christopherhex'
       - run: npm ci
-      - run: npm publish @christopherhex/cordova-test-plugin --access public
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
   
